@@ -7,6 +7,7 @@ body
 {
 	text-align: center;
     background-image: url('img/bg_texture.png');
+    padding-bottom: 50px;
 }
 
 div#container
@@ -19,6 +20,8 @@ div#container
     height: 100%;
     padding-top: 0;
     padding-bottom: 15px;
+    color: white;
+    font-family: "Myriad Pro", "Arial", "sans-serif";
 }
 
 div#container .title{
@@ -95,8 +98,6 @@ div#container  .rules{
 div#container  h1{
     padding-bottom: 15px;
     text-align: center;
-    color: white;
-    font-family: "Myriad Pro", "Arial", "sans-serif";
     font-size: 24px;
 }
 
@@ -109,8 +110,10 @@ div#container li{
     padding-right: 15px;
     padding-bottom: 9px;
     list-style: decimal inside none;
-    color: white;
-    font-family: "Myriad Pro", "Arial", "sans-serif";
     font-size: 14px;
+}
+div#container p {
+    font-size: 12px;
+    padding: 20px;
 }
 a:link,a:visited ,a:hover ,a:active{ color: #00d9dc;}
